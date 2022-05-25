@@ -1,3 +1,7 @@
+*{
+    font-family: 'Antonio', sans-serif;
+}
+
 #header{
     display: flex;
     align-items: center;
