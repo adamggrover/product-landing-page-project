@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
 } 
 
 #form{
@@ -13,6 +15,8 @@
 #features{
     display:flex;
     flex-direction: column;
+    width: 40%;
+    margin: 3rem;
     
 }
 
@@ -26,4 +30,10 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
