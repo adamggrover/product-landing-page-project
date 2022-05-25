@@ -39,12 +39,29 @@ a{
     font-weight: 500;
 }
 
+#signup{
+    font-size: 2rem;
+}
+
 #form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
-    gap: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+
+
+#submit{
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-weight: 600;
 }
 
 #features{
