@@ -16,9 +16,6 @@ h1{
     margin-left: -2rem;
 }
 
-h2{
-    margin-bottom: 0.8rem;;
-}
 
 #header{
     display: flex;
@@ -50,6 +47,11 @@ a{
 
 #signup{
     font-size: 2rem;
+    font-weight: 700;
+}
+
+#email{
+    padding: 0.3rem;
 }
 
 #form{
@@ -68,7 +70,7 @@ a{
     color: white;
     font-family: 'Antonio', sans-serif;
     font-size: 1rem;
-    padding: 0.3rem 1rem 0.3rem 1rem;
+    padding: 0.4rem 2rem 0.4rem 2rem;
     font-weight: 600;
 }
 
@@ -83,7 +85,11 @@ a{
     
 }
 
-
+#description{
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
 
 #icon{
     width: 50px;
@@ -115,7 +121,7 @@ main{
 #card{    
     border-style: solid;
     border-color: black;
-    border-width: 0.15rem;
+    border-width: 0.2rem;
     display: flex;
     padding-bottom: 1.2rem;
     flex-direction: column;
