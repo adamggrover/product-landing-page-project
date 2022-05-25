@@ -1,5 +1,9 @@
-*{
+h1, h2, h3, label{
     font-family: 'Antonio', sans-serif;
+}
+
+p, a, footer{
+    font-family: 'Hepta Slab', serif;
 }
 
 #header{
@@ -28,6 +32,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
+    gap: 0.5rem;
 }
 
 #features{
