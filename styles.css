@@ -1,9 +1,14 @@
-h1, h2, h3, label{
+h2, h3, label{
     font-family: 'Antonio', sans-serif;
 }
 
-p, a, footer{
+H1, p, a, footer{
     font-family: 'Hepta Slab', serif;
+}
+
+h1{
+    font-size:3em;
+    margin-left: -2rem;
 }
 
 #header{
