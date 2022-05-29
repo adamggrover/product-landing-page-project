@@ -7,13 +7,14 @@ h2, h3, label{
     font-family: 'Antonio', sans-serif;
 }
 
-H1, p, a, footer, #price{
+h1, p, a, footer, #price{
     font-family: 'Hepta Slab', serif;
 }
 
 h1{
-    font-size:3em;
-    margin-left: -2rem;
+    font-size:1.5rem;
+    margin-left: -2.6rem;
+    font-weight: 600;
     
 }
 
