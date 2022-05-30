@@ -16,6 +16,7 @@ h1{
     margin-left: -2.6rem;
     font-weight: 600;
     
+    
 }
 
 
@@ -27,10 +28,15 @@ h1{
     position: sticky;
     top:0;
     background-color: white;
-    
+    width:100%
     
     
 } 
+
+#logo-type{
+    display: flex;
+    align-items: center;
+}
 
 
 #nav-bar{
@@ -183,6 +189,14 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+    #header{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+        
+    }
+
     #features{
         width: 90%;
     }
