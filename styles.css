@@ -24,6 +24,12 @@ h1{
     
 }
 
+#demo{
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+}
+
 
 
 
